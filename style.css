@@ -1,0 +1,173 @@
+/*syling for tesla website */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+        color: whitesmoke;
+        margin-top: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+         float: left;
+         width: 70px;
+         margin-right: 100px;
+         margin: 0;
+
+}
+
+
+
+.banner-wrap {
+        
+              width: 100%;
+              height: 100vh;
+              display: flex;
+              /* background: url(tesla-roadster.webp)no-repeat center center/cover; */
+              justify-content: center;
+              align-items: center;
+              position: relative;
+}
+
+.back-video {position: absolute;
+             right: 0;
+             bottom: 0;
+             z-index: -1;
+
+}
+ @media     ( min-aspect-ratio:16/9)
+ {
+        .back-video{ 
+                width: 100%;
+                height: auto;
+        }
+}
+
+ 
+ @media ( max-aspect-ratio:16/9){
+        .back-video{ 
+                width: auto ;
+                height :100%;
+        }
+ 
+ }
+        
+
+        
+
+nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding:20px 100px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      /* z-index: 1000; */
+      margin: 0;
+      align-items: center;
+
+
+}
+main {
+       width: 100%;
+       min-height: 100vh;
+       padding: 100px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: column;
+       cursor: pointer;
+
+
+}
+button {
+         padding: 10px 20px;
+         border: none;
+         outline: none;
+         border-radius: 100px;
+         cursor: pointer;
+         font-size: 1rem;
+         font-weight: 600;
+         background: white;
+         color: rgb(89, 54, 172); 
+         transition: all 1s ease;
+         margin-top: 100px;
+        
+         
+}
+.btn1 { border: 3px solid black;
+        background: none;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 30px;
+        color:aliceblue;
+        text-align: center;
+        margin: 150px;
+        margin-top: 300px;
+        border-radius: 100px;
+   
+        
+}
+.btn2 {
+         border: 3px solid #000;
+         background: none;
+         font-size: 20px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         color: #000;
+         margin: 30px;
+        
+         
+}
+.btn1:hover {background: #000;}
+.btn2:hover {background:lightblue ;}
+
+
+footer { 
+        align-items: center;
+
+}
+.logo img{
+        float: left;
+        width: 80px;
+        margin: 0;
+        background: none;
+        display: flex;
+        margin-right: 30px;
+        justify-content: flex-start;
+}
+
+ .menu a{
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        margin-right: 100px;
+
+
+ }
+      
+ .sidemenu a{
+        margin-left: 0px;
+        justify-content:end;
+        font-size: x-small;
+        color: white;
+        text-decoration: none;
+        
+       
+
+ }
+ span{
+        justify-content: space-between;
+ }
+     
